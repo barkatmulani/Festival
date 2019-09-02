@@ -1,0 +1,5 @@
+&nbsp;&nbsp;&nbsp;&nbsp;
+<span *ngIf="band">{{band.name}}</span>
+<div *ngFor="let festival of band.festivals">
+    <app-festival [festival]="festival"></app-festival>
+</div>

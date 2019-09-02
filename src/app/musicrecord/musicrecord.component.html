@@ -1,0 +1,4 @@
+<span>{{musicRecord.recordLabel}}</span>
+<div *ngFor="let band of musicRecord.bands">
+    <app-band [band]="band"></app-band>
+</div>
